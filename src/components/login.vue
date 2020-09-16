@@ -7,6 +7,9 @@
         <el-form-item label="密码" prop="password">
           <el-input v-model="ruleForm.passward"></el-input>
         </el-form-item>
+        <el-form-item label="mima" prop="passwords">
+          <el-input v-model="ruleForm.passwards"></el-input>
+        </el-form-item>
        </el-form>
     </div>
 
@@ -17,8 +20,9 @@ export default {
   data () {
     return {
       ruleForm: {
-        name: 'admin刘进进',
-        passward: '123456'
+        name: 'admin',
+        passward: '123456',
+        passwards:''
       }
     }
   }
