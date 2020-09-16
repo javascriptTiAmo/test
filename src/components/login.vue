@@ -17,7 +17,7 @@ export default {
   data () {
     return {
       ruleForm: {
-        name: 'admin',
+        name: 'admin刘进进',
         passward: '123456'
       }
     }
