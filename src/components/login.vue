@@ -7,7 +7,7 @@
         <el-form-item label="密码" prop="password">
           <el-input v-model="ruleForm.passward"></el-input>
         </el-form-item>
-        <el-form-item label="mima123" prop="passwords">
+        <el-form-item label="我在改一下看一下" prop="passwords">
           <el-input v-model="ruleForm.passwards"></el-input>
         </el-form-item>
        </el-form>
