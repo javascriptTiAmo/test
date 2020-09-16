@@ -20,7 +20,7 @@ export default {
   data () {
     return {
       ruleForm: {
-        name: 'admin',
+        name: 'admin007',
         passward: '123456',
         passwards:''
       }
