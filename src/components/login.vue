@@ -1,13 +1,13 @@
 <template>
     <div class="item">
        <el-form :model="ruleForm" :rules="rules" ref="ruleFormref" label-width="100px">
-        <el-form-item label="我要来拉取一下" prop="name">
+        <el-form-item label="用户名007" prop="name">
           <el-input v-model="ruleForm.name"></el-input>
         </el-form-item>
-        <el-form-item label="试一下" prop="password">
+        <el-form-item label="密码007" prop="password">
           <el-input v-model="ruleForm.passward"></el-input>
         </el-form-item>
-        <el-form-item label="我在改一下看一下" prop="passwords">
+        <el-form-item label="那我提交了再看看" prop="passwords">
           <el-input v-model="ruleForm.passwards"></el-input>
         </el-form-item>
        </el-form>
